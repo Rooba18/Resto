@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+     <link href="https://fonts.googleapis.com/css2?family=Baskervville+SC&family=Bokor&family=Damion&family=Edu+AU+VIC+WA+NT+Pre:wght@400..700&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" 
+      rel="stylesheet"/> 
+     <link 
+      href="https://fonts.googleapis.com/css2?family=Baskervville+SC&family=Bokor&family=Damion&family=Edu+AU+VIC+WA+NT+Pre:wght@400..700&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"   />
+    <link rel="icon" href="./images/logo.png">
+    <!--font awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css"
+    />
+     <link 
+       rel="stylesheet" 
+       href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" 
+       integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" 
+       crossorigin="anonymous" 
+    />
+    <title>Resto</title>
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"  
+       integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!--Home-->
+    <header class="homepage">
+      <img src="./images/logo.png" width="200px" height="100px" class="photo" />
+      <nav>
+        <input type="checkbox" id="sidebar" />
+        <label for="sidebar" class="open">
+          <i class="fa-solid fa-bars" id="menu"></i>
+        </label>
+        <div class="close">
+          <label for="sidebar" class="closebtn">
+            <i class="fa-solid fa-xmark"></i>
+          </label>
+
+          <a  href="#home">Home</a>
+          <a href="#about">About</a>
+          <a href="#steak">Special Dishes</a>
+          <a href="#food">Menu</a>
+          <a href="#team">Chef</a>
+          <a href="#reser">Reservation</a>
+        </div>
+      </nav>
+    </header>
+
+    <!--homepartfull-->
+    <section id="home">
+      <div class="container">
+        <div class="homecontent">
+          <div class="homecont">
+            <div class="explore">
+              <h1>WE LOVE</h1>
+              <h1>DELICIOUS FOODS!</h1>
+              <button class="exp">Explore Menu</button>
+              <button class="vid">Play Video</button>
+            </div>
+            <div class="homelist">
+              <ul>
+                <li>
+                  <span class="lnr lnr-rocket" style="font-size: 30px"></span>
+                  <h5>Food Delivery</h5>
+                </li>
+                <li>
+                  <span class="lnr lnr-leaf" style="font-size: 30px"></span>
+                  <h5>Fresh Food</h5>
+                </li>
+                <li>
+                  <span class="lnr lnr-bubble" style="font-size: 30px"></span>
+                  <h5>24/7 Support</h5>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="homeimages">
+            <div class="slideshow-container">
+              <img class="mySlides" src="./images/lunch.jpg" width="550px" />
+              <img class="mySlides" src="./images/lunch2.jpg" width="550px" />
+              <img class="mySlides" src="./images/lunch1.jpg" width="550px" />
+              <img class="mySlides" src="./images/lunch3.jpg" width="550px" />
+
+              <div class="symbols">
+                <button class="left" onclick="plusDivs(-1)">
+                  <
+                </button>
+                <button class="right" onclick="plusDivs(+1)">
+                  >
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+<!-- About Section -->
+<section id="about">
+  <div class="aboutimage">
+    <img src="./images/hero-2.jpg" width="500px" height="700px">
+  </div>
+  <div class="aboutcontent">
+    <div class="summary">
+    <h4>About</h4>
+    <h2>Welcome to Resto</h2>
+    <P>On her way she met a copy. The copy warned the Little Blind Text, that where it came from it would have
+       been rewritten a thousand times and everything that was left from its origin would be the word "and" and the 
+       Little Blind Text should turn around and return to its own, safe country. A small river named Duden flows by their place and supplies it with the necessary regelialia. 
+       It is a paradisematic country, in which roasted parts of sentences fly into your mouth.
+    </P>
+  </div>
+  <div class="splreceipe">
+    <h2>Special Recipe</h2>
+    <div class="recepimages">
+      <ul>
+        <li>
+          <span>
+           <img src="./images/hero-1.jpg" width="150px">
+         </span>
+          <h5>Fruit Salad</h5>
+        </li>
+        <li>
+          <span>
+            <img src="./images/hero-1.jpg" width="150px">
+          </span>
+           <h5>Fruit Salad</h5>
+        </li>
+        <li>
+          <span>
+            <img src="./images/hero-1.jpg" width="150px">
+         </span>
+          <h5>Fruit Salad</h5>
+        </li>
+      </ul>
+    </div>
+  </div>
+  </div>
+</section>
+<!-- specialdishes -->
+<div class="spldishes">
+  <section id="steak">
+  <div class="dishcont">
+    <h5><span>Specialties</spanS></h5>
+    <h1>Special Dishes</h1>
+  </div>
+  <div class="allcontain">
+<div class="beef">
+  <h1>01.</h1>
+  <hr style="border: 1px solid rgb(180, 178, 178); width: 150px;"> 
+  <h3>
+    <span>Beef</span><br>
+    Steak Sauce
+  </h3>
+  <p>
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate, ea vero alias perferendis quas animi
+     doloribus voluptates. Atque explicabo ea nesciunt provident libero qui eum, corporis esse quos excepturi 
+     soluta?
+  </p>
+  <h4>$15.00</h4>
+  <button class="dishbut">Book A Table</button>
+</div>
+<div class="dishimg">
+  <img src="./images/steak.jpg" width="450px" height="550px">
+</div>
+</div>
+</section>
+<section id="zalmon">
+<div class="allcontain">
+  <div class="dishimg">
+    <img src="./images/salmon-zucchini.jpg" width="450px" height="550px">
+  </div>
+  <div class="beef">
+    <h1>02.</h1>
+     <hr style="border: 1px solid rgb(180, 178, 178); width: 150px;"> 
+    <h3>
+      <span>Salmon</span><br>
+      Zucchini
+    </h3>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate, ea vero alias perferendis quas animi
+       doloribus voluptates. Atque explicabo ea nesciunt provident libero qui eum, corporis esse quos excepturi 
+       soluta?
+    </p>
+    <h4>$15.00</h4>
+    <button class="dishbut">Book A Table</button>
+  </div>
+  </div>
+</section>
+</div>
+
+<!-- Menu -->
+<section id="food">
+<div class="menucontent">
+  <div class="dishcont">
+    <h5><span>Specialties</spanS></h5>
+    <h1>Special Dishes</h1>
+  </div>
+  <div class="break">
+    <h5>Breakfast</h5>
+    <h5>Lunch</h5>
+    <h5>Dinner</h5>
+    
+  </div>
+  <div class="fooditems">
+    <div class="breakfast">
+      <img src="./images/breakfast-1.jpg" width="100px" height="100px">
+      <div class="breakcont">
+      <h3>Egg Sandwich &nbsp; &nbsp; &nbsp; &nbsp;$30</h3>
+      <h5>Meat Ball,Mie</h5>
+      
+    </div>
+    
+    </div>
+    <div class="breakfast">
+      <img src="./images/breakfast-1.jpg" width="100px" height="100px">
+      <div class="breakcont">
+      <h3>Egg Sandwich &nbsp; &nbsp; &nbsp; &nbsp;$30</h3>
+      <h5>Meat Ball,Mie</h5>
+      
+    </div>
+    
+    </div>
+    <div class="breakfast">
+      <img src="./images/breakfast-1.jpg" width="100px" height="100px">
+      <div class="breakcont">
+      <h3>Egg Sandwich &nbsp; &nbsp; &nbsp; &nbsp;$30</h3>
+      <h5>Meat Ball,Mie</h5>
+      
+    </div>
+    
+    </div>
+    
+     
+  </div>
+  
+  <div class="fooditems">
+    <div class="breakfast">
+      <img src="./images/breakfast-1.jpg" width="100px" height="100px">
+      <div class="breakcont">
+      <h3>Egg Sandwich &nbsp; &nbsp; &nbsp; &nbsp;$30</h3>
+      <h5>Meat Ball,Mie</h5>
+      
+    </div>
+    
+    </div>
+    <div class="breakfast">
+      <img src="./images/breakfast-1.jpg" width="100px" height="100px">
+      <div class="breakcont">
+      <h3>Egg Sandwich &nbsp; &nbsp; &nbsp; &nbsp;$30</h3>
+      <h5>Meat Ball,Mie</h5>
+      
+    </div>
+    
+    </div>
+    <div class="breakfast">
+      <img src="./images/breakfast-1.jpg" width="100px" height="100px">
+      <div class="breakcont">
+      <h3>Egg Sandwich &nbsp; &nbsp; &nbsp; &nbsp;$30</h3>
+      <h5>Meat Ball,Mie</h5>
+      
+    </div>
+    
+    </div>
+    
+     
+  </div>
+  <div class="fooditems">
+    <div class="breakfast">
+      <img src="./images/breakfast-1.jpg" width="100px" height="100px">
+      <div class="breakcont">
+      <h3>Egg Sandwich &nbsp; &nbsp; &nbsp; &nbsp;$30</h3>
+      <h5>Meat Ball,Mie</h5>
+      
+    </div>
+    
+    </div>
+    <div class="breakfast">
+      <img src="./images/breakfast-1.jpg" width="100px" height="100px">
+      <div class="breakcont">
+      <h3>Egg Sandwich &nbsp; &nbsp; &nbsp; &nbsp;$30</h3>
+      <h5>Meat Ball,Mie</h5>
+      
+    </div>
+    
+    </div>
+    <div class="breakfast">
+      <img src="./images/breakfast-1.jpg" width="100px" height="100px">
+      <div class="breakcont">
+      <h3>Egg Sandwich &nbsp; &nbsp; &nbsp; &nbsp;$30</h3>
+      <h5>Meat Ball,Mie</h5>
+    </div>
+    </div>
+  </div>
+</div>
+</section>
+<section id="test">
+  <div class="dishcont">
+    <h5><span>Specialties</spanS></h5>
+    <h1 style="color:white;">Special Dishes</h1>
+  </div>
+ 
+ 
+
+    
+  <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+      <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+      <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+       
+        <div class="carousel-caption d-none d-md-block">
+          <h1>Happy Customers</h1>
+          <i class="fa-solid fa-quote-left" style="font-size: 50px;"></i>
+          <h5>First slide label</h5>
+          <p>Some representative placeholder content for the first slide.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        
+        <div class="carousel-caption d-none d-md-block">
+          <h1>Happy Customers</h1>
+          <i class="fa-solid fa-quote-left" style="font-size: 50px;"></i>
+          <h5>Second slide label</h5>
+          <p>Some representative placeholder content for the second slide.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+               <div class="carousel-caption d-none d-md-block">
+                <h1>Happy Customers</h1>
+                <i class="fa-solid fa-quote-left" style="font-size: 50px;"></i>
+          <h5>Third slide label</h5>
+          <p>Some representative placeholder content for the third slide.</p>
+        </div>
+      </div>
+    </div>
+     
+  </div>
+</section>
+<!-- team -->
+<section id="team">
+  <div class="dishcont">
+    <h5><span>Specialties</spanS></h5>
+    <h1>Our Chef</h1>
+  </div>
+  <div class="chef">    
+      <div class="first">
+        <img src="./images/chef-1.jpg" width="350px" height="525px" />
+        <div class="chefcnt">
+          <h1>
+            Aoron<br />
+            Ceo
+          </h1>
+        </div>
+      </div>
+      <div class="first">
+        <img src="./images/chef-2.jpg" width="350px" height="525px" />
+        <div class="chefcnt">
+          <h1>
+            John<br />
+            Chef
+          </h1>
+        </div>
+      </div>
+      <div class="first">
+        <img src="./images/chef-3.jpg" width="350px" height="525px" />
+        <div class="chefcnt">
+          <h1>
+            Martin<br />
+            Chef
+          </h1>
+        </div>
+      </div>
+    
+  </div>
+
+</section>
+<!-- reservation -->
+<section id="reser">
+<div class="reserpage">
+  <form>
+    
+      <h5><span>Specialties</spanS></h5>
+      <h3 style="color: rgb(243,73,73);">Reservation</h3>
+      <input type="text" placeholder="Name">
+      <input type="email" placeholder="Email">
+      <input type="text" placeholder="Phone">
+      <div class="dateinput">
+        <input type="date" placeholder="Phone">
+        <input type="time" placeholder="Time">
+      </div>
+      <input type="number" placeholder="Person">
+      <textarea>your Message</textarea>
+      <button class="reserbut">Send Message</button>
+    
+  </form>
+</div>
+</section>
+<div class="contact">
+  <div class="resto">
+    <img src="./images/logo.png" width="100px" height="100px">
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis architecto praesentium molestias,
+       accusamus corporis officia illo voluptatem distinctio ad tenetur enim iste culpa, eius illum autem
+       .</p>
+  </div>
+  <div class="openhours">
+    <h3>Open Hours</h3>
+    <ul>
+      <li>Monday</li>
+      <li>Tuesday</li>
+      <li>Wednesday</li>
+      <li>Thursday</li>
+      <li>Friday</li>
+      <li>Saturday</li>
+      <li>Sunday</li>
+      
+    </ul>
+  </div>
+  <div class="openhours date">
+    <h3 style="visibility: hidden;">Open Hours</h3>
+    <ul>
+      <li>9.00-24.00</li>
+      <li>9.00-24.00</li>
+      <li>9.00-24.00</li>
+      <li>9.00-24.00</li>
+      <li>9.00-24.00</li>
+      <li>9.00-24.00</li>
+      <li>Closed</li>
+      
+    </ul>
+  </div>
+  <div class="news">
+    <h3>NewsLetter</h3>
+    <p>Lorem ipsum dolor sit
+       Nemo, error.<br>
+       Nemo, error.</p>
+       <input type="email" placeholder="Enter your Email">
+       <button>Submit</button>
+  </div>
+</div>
+<div class="footer">
+  <div class="icons">
+  <i class="fa-brands fa-facebook-f"></i>
+  <i class="fa-brands fa-twitter"></i>
+  <i class="fa-brands fa-instagram"></i>
+</div>
+<div class="copy">
+  <p>Copyright 2019. All Right Reserved. Design by<span> GetTemplates</span></p>
+</div>
+</div>
+
+    <script>
+       var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length} ;
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  x[slideIndex-1].style.display = "block";
+}
+     
+    </script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+   </body>
+</html>
